@@ -13,9 +13,12 @@ read -p "Enter your age: " AGE
 
 echo "Your age is $AGE"
 
-if [ $AGE -lt 18 ];
+if [ $AGE -lt 18 ]
 	then
 		echo "HEEEY you're not allowed to do that"
+elif [ $AGE = 20 ]
+	then
+		echo "In my twenties..."
 else
 	echo "Welcome buddy!"
 fi
