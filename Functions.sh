@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/bin/bash -x
+# -x display all commands that will execute
 function find(){
 if [ -e ./exists.txt ];
 	then
@@ -11,7 +11,8 @@ echoout
 }
 
 function echoout(){
-	echo ".....Not yet"
+#string that contain double quote
+	echo -e ".....Not yet..\n\"Again\"..."
 }
 
 find

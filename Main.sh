@@ -1,10 +1,25 @@
 #!/bin/bash
+
+#$HOME var
+VAR_PATH=$HOME
+echo "the home dir path: "  $VAR_PATH
+#escape (expansion) - literal
+echo "You can find home var with this \$HOME"
+#ls $VAR_PATH
+VAR=$USER
+echo $VAR
+
+#HOSTNAME var
+host=$HOSTNAME
+echo $host
+
+<<comm
 name="Floyd"
 sport="ball"
 echo "$name Warshall"
 echo "foot${sport}"
 
-echo -e "Please enter your Full Name:"
+echo -e "Please enter your\tFull Name:"
 read FNAME LNAME
 
 
@@ -32,3 +47,4 @@ if [ -e $FILENAME ]
 else
 	echo "No it doesnt"
 fi
+comm
