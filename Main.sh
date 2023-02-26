@@ -12,7 +12,6 @@ echo $VAR
 #HOSTNAME var
 host=$HOSTNAME
 echo $host
-
 <<comm
 name="Floyd"
 sport="ball"
