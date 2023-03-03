@@ -68,3 +68,6 @@ then
 else
 	echo "file is of zero size"
 fi
+
+txtContent=$(cat file.txt)
+echo $txtContent
