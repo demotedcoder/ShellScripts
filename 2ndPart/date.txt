@@ -1,0 +1,8 @@
+./file.txt
+18014398509629640      0 -rw-r--r--   1 demotedC0der 197609          0 Mar  6 00:08 ./file.txt
+./file1.txt
+28147497671600126      0 -rw-r--r--   1 demotedC0der 197609          0 Mar  7 00:12 ./file1.txt
+./file2.txt
+ 4222124651196784      0 -rw-r--r--   1 demotedC0der 197609          0 Mar  7 00:12 ./file2.txt
+./file3.txt
+16044073673044432      0 -rw-r--r--   1 demotedC0der 197609          0 Mar  7 00:12 ./file3.txt
